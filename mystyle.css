@@ -1,0 +1,164 @@
+body
+{
+    background-color: #222831;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white ;
+    font-size: 18px;
+    letter-spacing: 1px;
+    /* harfler arası mesafe ayarı */
+    word-spacing: 5px;
+    /* kelimeler arası mesafe ayarı */
+    text-align: justify;
+    /* satır sonunun düz bir çizgi olmasını sağlar */
+    line-height: 30px;
+    /* satırlar arasındaki mesafe ayarlandı */
+}
+
+h1,p,h2
+{
+    margin-left: 200px;
+    margin-right: 700px;
+}
+
+h1
+{
+    line-height: 15px;
+    font-size: 75px;
+}
+/* hello ve I am hatice arasındaki mesafe ayarı */
+
+h2
+{
+    font-size: 40px;
+    margin-top: 70px;
+}
+
+.line {
+    border-top: 1px solid white;
+    margin-left: 200px;
+    margin-right: 700px;
+}
+
+p
+{
+    color:rgb(180,180,180);
+}
+
+ul
+{
+    list-style-type: none;
+    margin-left: 200px;
+    /* listedeki elemanların sol kenara olan uzaklığını belirler */
+    color:rgb(180,180,180);
+}
+
+.hello
+{
+    margin-top: 500px;
+}
+/* yazılarla üst sınır arasındaki mesafeyi belirler */
+
+img
+{
+    float: right ;
+    /* resmin yazıların sağında olmasını sağlıyor */
+    margin-right: 330px;
+    /* resmin sağ kenarda 100px uzakta olmasını sağlıyor */
+    border-radius: 0px;
+    /* resmin kenarlarını ovalleştiriyor */
+    width: 310,5px;
+    height: 482px;
+    /* resmin boyutları belirlendi */ 
+}
+
+
+
+.button 
+{
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 200px;
+    border-radius: 5px;
+  }
+  /* genel buton özellikleri*/
+  
+  .button1 
+  {
+    background-color: #222831; 
+    color: white; 
+    border: 2px solid white;
+    margin-top: 23px;
+  }
+  /* imleç butonun üzerinde değilken butonun nasıl görüneceğini gösteriyor */
+
+  .button1:hover
+  {
+    background-color: white;
+    color: #222831;
+
+  }
+/* imleç butonun üzerinde iken butonun nasıl görüneceğini gösteriyor */
+
+
+h1,h2,p,ul
+{
+    max-width: 600px;
+}
+/* yazının genişliğini ayarladım */
+
+/* <i class="fa-thin fa-angle-right" style="color: #ffffff;"></i>
+    listede kullanmak istediğim madde işareti. */
+
+    
+.icons {
+    font-size: 36px;
+    position: fixed;
+    margin-left: 1450px;
+    z-index: 10000;
+}
+
+.icons :hover {
+    color: #222831;
+}
+
+#mail {
+  position: fixed; 
+  right: 36px; 
+  bottom: 30px;
+  color: rgb(180,180,180);
+}
+#mail:hover {
+    color: white;
+}
+
+#linkedin {
+    position: fixed;
+    right: 40px;
+    bottom: 82px;
+    color: rgb(180,180,180);
+}
+
+#linkedin:hover {
+    color: white;
+}
+
+#github {
+    position: fixed;
+    right: 38px;
+    bottom: 140px;
+    color: rgb(180,180,180);
+}
+
+#github:hover {
+    color: white;
+}
+
+.end {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 100px;
+}
